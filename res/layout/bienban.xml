@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/lui_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Lui"
+                android:text="&lt;"
+                android:textSize="40sp" />
+            
+            <Button
+                android:id="@+id/in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="In"
+                android:textSize="40sp" />
+
+            <Button
+                android:id="@+id/toi_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Toi"
+                android:text=">"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="MASSLOAD ULTRASLIM WEIGHPAD\n
+-------------------------------\n
+So ID: 66495\n
+Bien ban so: 1\n
+Thoi gian:
+Khoi Luong\n
+1. Don vi kiem tra\n
+CONGTY TNHH TM &amp; CN DAT NAM\n
+2.Ten nguoi van hanh " />
+
+            <EditText
+                android:id="@+id/nguoidung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nguyen Van A"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/biensoText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Bien so xe: " />
+
+            <EditText
+                android:id="@+id/bienso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="51-4234" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Dia diem kiem tra " />
+
+            <EditText
+                android:id="@+id/diadiem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Quan 5 Ho Chi Minh" />
+
+            <TextView
+                android:id="@+id/nguoichungText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="5. Nguoi lam chung " />
+
+            <EditText
+                android:id="@+id/nguoichung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Nguyen Van B" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="   Chu ky nguoi lam chung\n 
+\n
+\n
+\n 
+\n
+\n
+         ---------------------------------\n
+          		COPYRIGHT @ DATNAMCO\n" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/thu_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="In"
+                android:textSize="40sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
